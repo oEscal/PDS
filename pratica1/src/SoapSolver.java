@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class ChessSolver {
+public class SoapSolver {
 
     public static Map<String, Integer[]> solve(List<String> soap, List<String> words){
 
