@@ -12,7 +12,6 @@ public class GoodVersion {
     private static int SOAP_MAX_SIZE = 60;
 
     public static void main(String args[]){
-
         String soap_file_name = "pratica1/soap.txt";
         long initial_time,
                 final_time;
