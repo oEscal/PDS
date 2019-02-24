@@ -27,13 +27,13 @@ public class GoodVersion {
         initial_time = System.currentTimeMillis();
         separateSoapWords(soap_file_lines, soap, words);
 
-        results = ChessSolver.solve(soap, words);
+        results = SoapSolver.solve(soap, words);
         final_time = System.currentTimeMillis();
 
         // verify if all words are in the soap
         words.forEach(word -> {
             if(!results.containsKey(word))
-                ErrorsChessSolver.duplicationInPuzzleError();
+                ErrorsSoapSolver.duplicationInPuzzleError();
         });
 
         // print results table
@@ -55,11 +55,11 @@ public class GoodVersion {
             if(soap.size() == 0 ||  soap.size() < soap.get(0).length()) {
                 // verify soap's size
                 if(soap.size() > SOAP_MAX_SIZE)
-                    ErrorsChessSolver.sizeError();
+                    ErrorsSoapSolver.sizeError();
 
                 // verify soap letters's case
                 if(!line.equals(line.toUpperCase()))
-                    ErrorsChessSolver.puzzleCaseError();
+                    ErrorsSoapSolver.puzzleCaseError();
 
                 soap.add(line);
             }
@@ -75,16 +75,16 @@ public class GoodVersion {
                         // verify if there are duplicated or redundant words
                         words.forEach(w -> {
                             if(w.contains(item.toUpperCase()) || item.toUpperCase().contains(w))
-                                ErrorsChessSolver.duplicatedOrRedundantWordsError();
+                                ErrorsSoapSolver.duplicatedOrRedundantWordsError();
                         });
 
                         // verify if there are non alphabetic characters
                         if(item.matches("^.*[^a-zA-Z].*$"))
-                            ErrorsChessSolver.alphabeticCharsError();
+                            ErrorsSoapSolver.alphabeticCharsError();
 
                         // verify if words have at least three characters
                         if(item.length() < 3)
-                            ErrorsChessSolver.wordsSizeError();
+                            ErrorsSoapSolver.wordsSizeError();
 
                         words.add(item.toUpperCase());
                     }

@@ -1,4 +1,4 @@
-public class ErrorsChessSolver {
+public class ErrorsSoapSolver {
 
     public static void sizeError(){
         throw new ArithmeticException("Puzzle must be a square and with max size of 60x60!");
