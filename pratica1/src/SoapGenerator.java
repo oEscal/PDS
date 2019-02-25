@@ -125,7 +125,6 @@ public class SoapGenerator {
         for ( int i = 0; i < soap_size; i++ )
             for (int j = 0; j < soap_size; j++)
                 possible_positions.add(new Integer[]{i,j});
-
     }
 
 }

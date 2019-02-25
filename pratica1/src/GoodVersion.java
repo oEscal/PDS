@@ -11,7 +11,6 @@ public class GoodVersion {
     public static void main(String args[]){
 
         resolveSoap("pratica1/soap.txt");
-
         List<String> words = new ArrayList<>();
 
         words.add("list");
@@ -20,7 +19,9 @@ public class GoodVersion {
         words.add("queue");
         words.add("stack");
         words.add("tree");
-        SoapGenerator.generate(words, 10);
+
+        System.out.println(SoapGenerator.generate(words, 10));
+
     }
 
     private static void resolveSoap(String soap_file_name){
