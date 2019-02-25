@@ -4,13 +4,16 @@ public class SoapGenerator {
 
     private static final int MAX_SIZE = 60;
 
-    public static List<List<Character>> generate(List<String> words){
+    public static List<List<Character>> generate(List<String> words , int soap_size){
 
         List<List<Character>> current_soap = new ArrayList<>();
         List<Integer[]> possible_positions = new ArrayList<>();
         Map<Character, List<Integer[]>> positions = new TreeMap<>();
-        Random rand = new Random();
         int[][] possible_directions = generatePossiblePositions();
+        Random rand = new Random();
+
+        create_soap( current_soap, soap_size);
+        create_possible_positions( possible_positions, soap_size);
 
         for (String word : words) {
 
@@ -22,7 +25,7 @@ public class SoapGenerator {
 
 
 
-        return null;
+        return current_soap;
     }
 
     private static void insertRandom(List<List<Character>> current_soap,
@@ -51,16 +54,10 @@ public class SoapGenerator {
 
     }
 
-    private static void resizeSoap(List<List<Character>> current_soap,
-                                   List<Integer[]> possible_positions,
-                                   String word, int min_size){
 
-
-
-    }
 
     private static boolean generateRandomDirection(List<List<Character>> current_soap,
-                                                   String word, int[] possible_directions, Integer[] position){
+                                                   String word, int[][] possible_directions, Integer[] position){
 
 
         return false;
@@ -79,6 +76,20 @@ public class SoapGenerator {
             }
 
         return possible_directions;
+    }
+
+    private static void create_soap(List<List<Character>> current_soap, int soap_size){
+        for ( int i = 0; i < soap_size; i++ )
+            for (int j = 0; j < soap_size; j++)
+                current_soap.get(i).add(null);
+    }
+
+    private static void create_possible_positions(List<Integer[]> possible_positions, int soap_size){
+
+        for ( int i = 0; i < soap_size; i++ )
+            for (int j = 0; j < soap_size; j++)
+                possible_positions.add(new Integer[]{i,j});
+
     }
 
 }
