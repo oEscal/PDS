@@ -2,17 +2,28 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class GoodVersion {
 
     private static int SOAP_MAX_SIZE = 60;
 
     public static void main(String args[]){
-        String soap_file_name = "pratica1/soap.txt";
+
+        resolveSoap("pratica1/soap.txt");
+
+        List<String> words = new ArrayList<>();
+
+        words.add("list");
+        words.add("set");
+        words.add("graph");
+        words.add("queue");
+        words.add("stack");
+        words.add("tree");
+        SoapGenerator.generate(words, 10);
+    }
+
+    private static void resolveSoap(String soap_file_name){
         long initial_time,
                 final_time;
 
@@ -46,7 +57,6 @@ public class GoodVersion {
             System.out.printf("%-10s %d %6d,%-6d %s\n",
                     word, word.length(), positions_and_directions[0], positions_and_directions[1], direction);
         });
-
     }
 
     private static void separateSoapWords(List<String> lines, List<String> soap, List<String> words){
