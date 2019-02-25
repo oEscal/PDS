@@ -9,8 +9,10 @@ public class SoapGenerator {
         List<List<Character>> current_soap = new ArrayList<>();
         List<Integer[]> possible_positions = new ArrayList<>();
         Map<Character, List<Integer[]>> positions = new TreeMap<>();
-        Random rand = new Random();
         List<Integer[]> possible_directions = generatePossiblePositions();
+
+        create_soap( current_soap, soap_size);
+        create_possible_positions( possible_positions, soap_size);
 
         for (String word : words) {
 
