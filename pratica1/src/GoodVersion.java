@@ -10,17 +10,48 @@ public class GoodVersion {
 
     public static void main(String args[]){
 
-        resolveSoap("pratica1/soap.txt");
+        List<String> options = List.of(args);
 
-        List<String> words = new ArrayList<>();
+        if(options.contains("-s")){
+            int index_option = options.indexOf("-s");
+            int index_soup_file = index_option + 1;
 
-        words.add("list");
-        words.add("set");
-        words.add("graph");
-        words.add("queue");
-        words.add("stack");
-        words.add("tree");
-        SoapGenerator.generate(words, 10);
+            if(options.size() <= index_soup_file)
+                optionsError();
+
+            String file_name = options.get(index_option + 1);
+
+            resolveSoap(file_name);
+        }
+        if(options.contains("-g")){
+            int index_option = options.indexOf("-g");
+            int index_words_file = index_option + 1;
+            int index_file_save = index_option + 2;
+
+            String words_file_name;
+            String result_file_name = "-terminal-";
+
+            // verify if arguments of this options exists
+            if(options.size() <= index_words_file)
+                optionsError();
+
+            words_file_name = options.get(index_words_file);
+
+            if(options.size() <= index_file_save)
+                result_file_name = options.get(index_file_save);
+
+            generateSoap(words_file_name, result_file_name, 20);
+        }
+
+    }
+
+    private static void optionsError(){
+        System.err.println("Error in arguments!\n\n" +
+                "Usages (arguments inside [] are required and arguments inside <> are optional):\n" +
+                "java GoodVersion -g [words_file] <result_file>\n" +
+                "\t\t\tor\n" +
+                "java GoodVersion -s [soup_file]");
+        System.exit(1);
     }
 
     private static void resolveSoap(String soap_file_name){
@@ -54,9 +85,23 @@ public class GoodVersion {
             String direction = readDirection(positions_and_directions[2], positions_and_directions[3]);
 
             // print one line of table's result
-            System.out.printf("%-10s %d %6d,%-6d %s\n",
+            System.out.printf("%-15s %d %6d,%-6d %s\n",
                     word, word.length(), positions_and_directions[0], positions_and_directions[1], direction);
         });
+    }
+
+    private static void generateSoap(String words_file_name, String file_name_save, int soap_size){
+
+        List<String> words = new ArrayList<>();
+        List<List<Character>> soap;
+        List<String> words_file_lines = readFileLines(words_file_name);
+
+        words_file_lines.forEach(line -> createWordsListFromLine(line, words));
+
+
+        soap = SoapGenerator.generate(words, soap_size);
+        writeSoapToFile(file_name_save, soap, words);
+
     }
 
     private static void separateSoapWords(List<String> lines, List<String> soap, List<String> words){
@@ -73,34 +118,40 @@ public class GoodVersion {
 
                 soap.add(line);
             }
-            else{
-                // separate words
-                String[] words_this_line = line.replace(' ', ',')
-                                                .replace(';', ',')
-                                                .split(",");
+            else
+                createWordsListFromLine(line, words);
 
-                // verify which words are not empty and add them to words list
-                Arrays.asList(words_this_line).forEach(item -> {
-                    if(item.length() > 0){
-                        // verify if there are duplicated or redundant words
-                        words.forEach(w -> {
-                            if(w.contains(item.toUpperCase()) || item.toUpperCase().contains(w))
-                                ErrorsSoapSolver.duplicatedOrRedundantWordsError();
-                        });
+        });
+    }
 
-                        // verify if there are non alphabetic characters
-                        if(item.matches("^.*[^a-zA-Z].*$"))
-                            ErrorsSoapSolver.alphabeticCharsError();
+    private static void createWordsListFromLine(String line, List<String> words){
 
-                        // verify if words have at least three characters
-                        if(item.length() < 3)
-                            ErrorsSoapSolver.wordsSizeError();
+        // separate words
+        String[] words_this_line = line.replace(' ', ',')
+                .replace(';', ',')
+                .split(",");
 
-                        words.add(item.toUpperCase());
-                    }
+        // verify which words are not empty and add them to words list
+        Arrays.asList(words_this_line).forEach(item -> {
+            if(item.length() > 0){
+                // verify if there are duplicated or redundant words
+                words.forEach(w -> {
+                    if(w.contains(item.toUpperCase()) || item.toUpperCase().contains(w))
+                        ErrorsSoapSolver.duplicatedOrRedundantWordsError();
                 });
-            }
 
+                // verify if there are non alphabetic characters
+                if(item.matches("^.*[^a-zA-Z].*$")){
+                    System.out.println(item);
+                    ErrorsSoapSolver.alphabeticCharsError();
+                }
+
+                // verify if words have at least three characters
+                if(item.length() < 3)
+                    ErrorsSoapSolver.wordsSizeError();
+
+                words.add(item.toUpperCase());
+            }
         });
     }
 
@@ -116,6 +167,31 @@ public class GoodVersion {
         }
 
         return file_lines;
+    }
+
+    private static void writeSoapToFile(String file_name, List<List<Character>> soap, List<String> words) {
+
+        Path path_file = Paths.get(file_name);
+        StringBuilder soap_string_builder = new StringBuilder();
+
+        // create a string with the soap generated
+        soap.forEach(list -> {
+            list.forEach(letter -> soap_string_builder.append(letter));
+            soap_string_builder.append('\n');
+        });
+
+        // put the words in the soap generated string
+        words.forEach(word -> soap_string_builder.append(word.toLowerCase() + ","));
+
+        // write to terminal or file
+        if(file_name.equals("-terminal-"))
+            System.out.println(soap_string_builder.toString());
+        else
+            try {
+                Files.write(path_file, soap_string_builder.toString().getBytes());
+            }catch(IOException e) {
+                System.out.println("Error in file opening!");
+            }
     }
 
     private static String readDirection(int x, int y){
