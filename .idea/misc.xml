@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+<<<<<<< HEAD
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_10" default="false" project-jdk-name="10" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/pratica1/output" />
+  </component>
+=======
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
@@ -8,4 +13,5 @@
     <output url="file://$PROJECT_DIR$/pratica1/output" />
   </component>
 
+>>>>>>> fdb5da62e13b05526e305a6afb115d5e66ff93e7
 </project>

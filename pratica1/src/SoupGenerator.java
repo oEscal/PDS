@@ -34,10 +34,10 @@ public class SoupGenerator {
 
     private void createSoup(){
 
-        for (int i = 0; i < soup_size; i++){
+        for (int index_row = 0; index_row < soup_size; index_row++){
             soup.add(new ArrayList<>());
-            for (int j = 0; j < soup_size; j++)
-                soup.get(i).add(null);
+            for (int index_col = 0; index_col < soup_size; index_col++)
+                soup.get(index_row).add(null);
         }
     }
 
@@ -100,12 +100,10 @@ public class SoupGenerator {
     private void generatePossiblePositions(){
 
         int[] coordinate__possible_values = {-1, 0, 1};
-
-        for(int n1 : coordinate__possible_values)
-            for(int n2 : coordinate__possible_values){
-
-                if(n1 != 0 || n2 != 0)
-                    possible_directions.add(new Integer[]{n1, n2});
+        for(int x : coordinate__possible_values)
+            for(int y : coordinate__possible_values){
+                if(x != 0 || y != 0)
+                    possible_directions.add(new Integer[]{x, y});
             }
     }
 

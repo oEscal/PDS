@@ -1,54 +1,297 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/pratica1/src/SoupMap.java" line="7" mnemonic="7" />
+  </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
+    <list default="true" id="f86bf51d-b10a-4340-8479-078cd2300e91" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore/.gitignore" afterDir="false" />
+=======
     <list default="true" id="71e46d9a-9a31-4937-99f4-ade6f00c9629" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pratica1/src/SoupGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/pratica1/src/SoupGenerator.java" afterDir="false" />
+=======
+>>>>>>> fdb5da62e13b05526e305a6afb115d5e66ff93e7
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pratica1/ChessSolver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pratica1/ErrorsChessSolver.class" beforeDir="false" />
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/out/production/pratica1/GoodVersion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pratica1/SoapMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pratica1/output/production/pratica1/ErrorsSoapSolver.class" beforeDir="false" afterPath="$PROJECT_DIR$/pratica1/output/production/pratica1/ErrorsSoapSolver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pratica1/output/production/pratica1/GoodVersion.class" beforeDir="false" afterPath="$PROJECT_DIR$/pratica1/output/production/pratica1/GoodVersion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pratica1/output/production/pratica1/SoapGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pratica1/output/production/pratica1/SoapMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pratica1/output/production/pratica1/SoapSolver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pratica1/src/GoodVersion.java" beforeDir="false" afterPath="$PROJECT_DIR$/pratica1/src/GoodVersion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pratica1/src/SoapMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/pratica1/src/SoupMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pratica1/src/SoapSolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/pratica1/src/SoupSolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pratica1/src/SoupGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/pratica1/src/SoupGenerator.java" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/out/production/pratica1/GoodVersion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pratica1/GoodVersion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pratica1/SoapMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pratica1/SoapMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pratica1/src/GoodVersion.java" beforeDir="false" afterPath="$PROJECT_DIR$/pratica1/src/GoodVersion.java" afterDir="false" />
+>>>>>>> fdb5da62e13b05526e305a6afb115d5e66ff93e7
+>>>>>>> 859b7eae1138fc58543808246d257084780cc268
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/pratica1/output/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
+  <component name="FUSProjectUsageTrigger">
+    <session id="-321250991">
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="2" />
+          <entry key="txt" value="13" />
+          <entry key="xml" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="2" />
+          <entry key="PLAIN_TEXT" value="13" />
+          <entry key="XML" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="1" />
+          <entry key="java" value="5167" />
+          <entry key="txt" value="95" />
+          <entry key="xml" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="5167" />
+          <entry key="PLAIN_TEXT" value="96" />
+          <entry key="XML" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.27" value="1" />
+          <entry key="project.open.time.32" value="1" />
+          <entry key="project.opened" value="4" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pratica1/src/GoodVersion.java">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="80" column="29" lean-forward="true" selection-start-line="80" selection-start-column="29" selection-end-line="80" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#main#0;class#GoodVersion#0" />
+                <element signature="method#optionsError#0;class#GoodVersion#0" />
+                <element signature="method#generateSoap#0;class#GoodVersion#0" />
+                <element signature="method#separateSoapWords#0;class#GoodVersion#0" />
+                <element signature="method#createWordsListFromLine#0;class#GoodVersion#0" />
+                <element signature="method#readFileLines#0;class#GoodVersion#0" />
+                <element signature="method#writeSoapToFile#0;class#GoodVersion#0" />
+                <element signature="method#readDirection#0;class#GoodVersion#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pratica1/output/production/pratica1/words.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pratica1/output/production/pratica1/soup.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="5" column="3" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="3" />
+=======
+  <component name="FileEditorManager">
+<<<<<<< HEAD
+    <leaf>
+=======
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pratica1/src/SoapGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-989">
+              <caret line="61" column="108" selection-start-line="61" selection-start-column="108" selection-end-line="61" selection-end-column="108" />
+>>>>>>> fdb5da62e13b05526e305a6afb115d5e66ff93e7
+            </state>
+          </provider>
+        </entry>
+      </file>
+>>>>>>> 859b7eae1138fc58543808246d257084780cc268
+      <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
+        <entry file="file://$PROJECT_DIR$/pratica1/src/SoupMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pratica1/src/ErrorsSoapSolver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="217">
+              <caret line="20" column="49" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
+              <folding>
+                <element signature="method#sizeError#0;class#ErrorsSoapSolver#0" />
+                <element signature="method#puzzleCaseError#0;class#ErrorsSoapSolver#0" />
+                <element signature="method#alphabeticCharsError#0;class#ErrorsSoapSolver#0" />
+                <element signature="method#duplicationInPuzzleError#0;class#ErrorsSoapSolver#0" />
+                <element signature="method#duplicatedOrRedundantWordsError#0;class#ErrorsSoapSolver#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pratica1/src/SoupGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="70" column="25" selection-start-line="70" selection-start-column="25" selection-end-line="70" selection-end-column="25" />
+=======
+        <entry file="file://$PROJECT_DIR$/pratica1/src/GoodVersion.java">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="160">
               <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
               <folding>
                 <element signature="e#7927#7928#0" expanded="true" />
                 <element signature="e#7988#7989#0" expanded="true" />
               </folding>
+=======
+            <state relative-caret-position="220">
+              <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+>>>>>>> fdb5da62e13b05526e305a6afb115d5e66ff93e7
+>>>>>>> 859b7eae1138fc58543808246d257084780cc268
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pratica1/src/SoupGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="320">
               <caret line="76" column="26" lean-forward="true" selection-start-line="76" selection-start-column="26" selection-end-line="76" selection-end-column="26" />
+=======
+<<<<<<< HEAD
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pratica1/src/SoupSolver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="113">
+              <caret line="129" column="32" selection-start-line="129" selection-start-column="32" selection-end-line="129" selection-end-column="32" />
+              <folding>
+                <element signature="method#searchLines#0;class#SoapSolver#0" />
+                <element signature="method#findWords#0;class#SoapSolver#0" />
+                <element signature="method#transposeSoup#0;class#SoupSolver#0" />
+                <element signature="method#reverseSoup#0;class#SoupSolver#0" />
+              </folding>
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+>>>>>>> fdb5da62e13b05526e305a6afb115d5e66ff93e7
+>>>>>>> 859b7eae1138fc58543808246d257084780cc268
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+<<<<<<< HEAD
   <component name="FindInProjectRecents">
     <findStrings>
       <find>generatePoss</find>
     </findStrings>
   </component>
+=======
+<<<<<<< HEAD
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>lower</find>
+      <find>TreeMap</find>
+      <find>Integer[]{</find>
+      <find>int[][]</find>
+      <find>current_soap</find>
+      <find>Syste</find>
+      <find>Error</find>
+      <find>ErrorsSoapSolver.</find>
+      <find>ErrorsSoapSolver.duplicationInPuzzleError</find>
+      <find>set</find>
+      <find>n</find>
+      <find>positions</find>
+      <find>possible_positions</find>
+      <find>\0</find>
+      <find>null</find>
+      <find>soap</find>
+      <find>s</find>
+    </findStrings>
+  </component>
+=======
+>>>>>>> fdb5da62e13b05526e305a6afb115d5e66ff93e7
+>>>>>>> 859b7eae1138fc58543808246d257084780cc268
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/pratica1/soap.txt" />
+        <option value="$PROJECT_DIR$/pratica1/src/ola.txt" />
+        <option value="$PROJECT_DIR$/pratica1/src/SoapMap.java" />
+        <option value="$PROJECT_DIR$/pratica1/src/soap.txt" />
+        <option value="$PROJECT_DIR$/pratica1/src/words.txt" />
+        <option value="$PROJECT_DIR$/pratica1/src/SoapGenerator.java" />
+        <option value="$PROJECT_DIR$/pratica1/src/SoupGenerator.java" />
+        <option value="$PROJECT_DIR$/pratica1/src/SoapSolver.java" />
+        <option value="$PROJECT_DIR$/pratica1/src/GoodVersion.java" />
+        <option value="$PROJECT_DIR$/pratica1/src/SoupSolver.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+=======
+        <option value="$PROJECT_DIR$/pratica1/src/SoapGenerator.java" />
+>>>>>>> 859b7eae1138fc58543808246d257084780cc268
         <option value="$PROJECT_DIR$/.idea/misc.xml" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/pratica1/src/GoodVersion.java" />
@@ -57,23 +300,92 @@
       </list>
     </option>
   </component>
+>>>>>>> fdb5da62e13b05526e305a6afb115d5e66ff93e7
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="260" />
     <option name="y" value="20" />
     <option name="width" value="1400" />
     <option name="height" value="992" />
   </component>
+<<<<<<< HEAD
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Android</id>
+          </State>
+          <State>
+            <id>CSS</id>
+          </State>
+          <State>
+            <id>CorrectnessLintAndroid</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>LintAndroid</id>
+          </State>
+          <State>
+            <id>Probable bugsCSS</id>
+          </State>
+          <State>
+            <id>Probable bugsJava</id>
+          </State>
+          <State>
+            <id>RELAX NG</id>
+          </State>
+          <State>
+            <id>XPath</id>
+          </State>
+          <State>
+            <id>XSLT</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
+  </component>
+=======
+>>>>>>> fdb5da62e13b05526e305a6afb115d5e66ff93e7
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
+=======
+      <pane id="Scope" />
+<<<<<<< HEAD
+      <pane id="PackagesPane" />
+=======
+>>>>>>> fdb5da62e13b05526e305a6afb115d5e66ff93e7
+>>>>>>> 859b7eae1138fc58543808246d257084780cc268
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="PDS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pratica1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PDS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pratica1" type="462c0819:PsiDirectoryNode" />
+              <item name="output" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PDS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pratica1" type="462c0819:PsiDirectoryNode" />
+              <item name="output" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PDS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pratica1" type="462c0819:PsiDirectoryNode" />
+              <item name="output" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
               <item name="pratica1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -92,8 +404,23 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+<<<<<<< HEAD
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551210991338" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pratica1/output/production/pratica1" />
+      <recent name="$PROJECT_DIR$/pratica1/src" />
+    </key>
+  </component>
+=======
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551105115650" />
   </component>
+>>>>>>> fdb5da62e13b05526e305a6afb115d5e66ff93e7
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -106,7 +433,11 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
+  <component name="RunManager" selected="Application.GoodVersion">
+=======
   <component name="RunManager">
+>>>>>>> fdb5da62e13b05526e305a6afb115d5e66ff93e7
     <configuration name="GoodVersion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GoodVersion" />
       <module name="pratica1" />
@@ -114,9 +445,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
+    <configuration name="Pratica1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Pratica1" />
+      <module name="pratica1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Pratica1" />
+      <item itemvalue="Application.GoodVersion" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.GoodVersion" />
+        <item itemvalue="Application.Pratica1" />
+=======
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.GoodVersion" />
+>>>>>>> fdb5da62e13b05526e305a6afb115d5e66ff93e7
       </list>
     </recent_temporary>
   </component>
@@ -125,10 +474,29 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="71e46d9a-9a31-4937-99f4-ade6f00c9629" name="Default Changelist" comment="" />
-      <created>1551039112152</created>
+      <changelist id="f86bf51d-b10a-4340-8479-078cd2300e91" name="Default Changelist" comment="" />
+      <created>1550481843341</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
+<<<<<<< HEAD
+      <updated>1550481843341</updated>
+      <workItem from="1550481845028" duration="5908000" />
+      <workItem from="1550498165644" duration="6000" />
+      <workItem from="1550498873207" duration="41000" />
+      <workItem from="1550511429583" duration="3697000" />
+      <workItem from="1550555504367" duration="4330000" />
+      <workItem from="1550584827809" duration="3190000" />
+      <workItem from="1550588897476" duration="39000" />
+      <workItem from="1550598685188" duration="17946000" />
+      <workItem from="1550923629465" duration="12315000" />
+      <workItem from="1550965905934" duration="256000" />
+      <workItem from="1551018819978" duration="17971000" />
+      <workItem from="1551086140786" duration="10346000" />
+      <workItem from="1551111082992" duration="12315000" />
+      <workItem from="1551139068199" duration="8451000" />
+      <workItem from="1551194076098" duration="54000" />
+      <workItem from="1551206321855" duration="4575000" />
+=======
       <updated>1551039112152</updated>
       <workItem from="1551039122488" duration="1487000" />
       <workItem from="1551042483995" duration="58000" />
@@ -137,14 +505,79 @@
       <workItem from="1551049346105" duration="190000" />
       <workItem from="1551049567945" duration="5190000" />
       <workItem from="1551086446288" duration="6142000" />
+<<<<<<< HEAD
       <workItem from="1551128385514" duration="1529000" />
       <workItem from="1551194078599" duration="132000" />
       <workItem from="1551207462573" duration="3557000" />
+=======
+      <workItem from="1551128385514" duration="255000" />
+>>>>>>> fdb5da62e13b05526e305a6afb115d5e66ff93e7
+>>>>>>> 859b7eae1138fc58543808246d257084780cc268
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="7450000" />
+=======
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="31328000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="-1" width="1920" height="1040" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11579509" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32896176" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28961748" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3995633" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32969433" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.6808743" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32786885" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.2497332" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09551761" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.45524016" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3995633" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32969433" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.09825327" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32969433" />
+=======
+    <option name="totallyTimeSpent" value="2487000" />
+>>>>>>> 859b7eae1138fc58543808246d257084780cc268
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1032" extended-state="6" />
@@ -169,20 +602,61 @@
       <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.24074075" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3298611" />
+>>>>>>> fdb5da62e13b05526e305a6afb115d5e66ff93e7
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
+<<<<<<< HEAD
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+    </layout-to-restore>
+=======
       <window_info anchor="right" id="Database" order="4" weight="0.3299356" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Maven" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
+>>>>>>> fdb5da62e13b05526e305a6afb115d5e66ff93e7
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+<<<<<<< HEAD
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-891" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pratica1/soap.txt" />
+    <entry file="file://$PROJECT_DIR$/pratica1/src/ola.txt" />
+    <entry file="file://$PROJECT_DIR$/pratica1/src/result.txt" />
+    <entry file="file://$PROJECT_DIR$/pratica1/src/soap2.txt" />
+    <entry file="file://$PROJECT_DIR$/pratica1/src/soap.txt" />
+    <entry file="file://$PROJECT_DIR$/pratica1/src/words.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+=======
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor" />
@@ -196,19 +670,190 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pratica1/src/SoapGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="580">
           <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
+=======
+        <state relative-caret-position="-989">
+          <caret line="61" column="108" selection-start-line="61" selection-start-column="108" selection-end-line="61" selection-end-column="108" />
+>>>>>>> fdb5da62e13b05526e305a6afb115d5e66ff93e7
+>>>>>>> 859b7eae1138fc58543808246d257084780cc268
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pratica1/src/soup.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-238" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pratica1/src/GoodVersion.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="160">
           <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
           <folding>
             <element signature="e#7927#7928#0" expanded="true" />
             <element signature="e#7988#7989#0" expanded="true" />
           </folding>
+=======
+<<<<<<< HEAD
+        <state relative-caret-position="182">
+          <caret line="80" column="29" lean-forward="true" selection-start-line="80" selection-start-column="29" selection-end-line="80" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#main#0;class#GoodVersion#0" />
+            <element signature="method#optionsError#0;class#GoodVersion#0" />
+            <element signature="method#generateSoap#0;class#GoodVersion#0" />
+            <element signature="method#separateSoapWords#0;class#GoodVersion#0" />
+            <element signature="method#createWordsListFromLine#0;class#GoodVersion#0" />
+            <element signature="method#readFileLines#0;class#GoodVersion#0" />
+            <element signature="method#writeSoapToFile#0;class#GoodVersion#0" />
+            <element signature="method#readDirection#0;class#GoodVersion#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pratica1/src/ErrorsSoapSolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="20" column="49" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
+          <folding>
+            <element signature="method#sizeError#0;class#ErrorsSoapSolver#0" />
+            <element signature="method#puzzleCaseError#0;class#ErrorsSoapSolver#0" />
+            <element signature="method#alphabeticCharsError#0;class#ErrorsSoapSolver#0" />
+            <element signature="method#duplicationInPuzzleError#0;class#ErrorsSoapSolver#0" />
+            <element signature="method#duplicatedOrRedundantWordsError#0;class#ErrorsSoapSolver#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pratica1/src/SoupGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="70" column="25" selection-start-line="70" selection-start-column="25" selection-end-line="70" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pratica1/output/production/pratica1/words.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pratica1/src/SoupMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pratica1/output/production/pratica1/soup.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pratica1/src/SoupSolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="129" column="32" selection-start-line="129" selection-start-column="32" selection-end-line="129" selection-end-column="32" />
+          <folding>
+            <element signature="method#searchLines#0;class#SoapSolver#0" />
+            <element signature="method#findWords#0;class#SoapSolver#0" />
+            <element signature="method#transposeSoup#0;class#SoupSolver#0" />
+            <element signature="method#reverseSoup#0;class#SoupSolver#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>pratica1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+=======
+        <state relative-caret-position="220">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+>>>>>>> 859b7eae1138fc58543808246d257084780cc268
         </state>
       </provider>
     </entry>
@@ -219,5 +864,6 @@
         </state>
       </provider>
     </entry>
+>>>>>>> fdb5da62e13b05526e305a6afb115d5e66ff93e7
   </component>
 </project>
