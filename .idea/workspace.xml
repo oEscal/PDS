@@ -4,12 +4,17 @@
     <bookmark url="file://$PROJECT_DIR$/pratica1/src/SoupMap.java" line="7" mnemonic="7" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="f86bf51d-b10a-4340-8479-078cd2300e91" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore/.gitignore" afterDir="false" />
+=======
+    <list default="true" id="71e46d9a-9a31-4937-99f4-ade6f00c9629" name="Default Changelist" comment="">
+>>>>>>> fdb5da62e13b05526e305a6afb115d5e66ff93e7
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/pratica1/ChessSolver.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/pratica1/ErrorsChessSolver.class" beforeDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/out/production/pratica1/GoodVersion.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/pratica1/SoapMap.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pratica1/output/production/pratica1/ErrorsSoapSolver.class" beforeDir="false" afterPath="$PROJECT_DIR$/pratica1/output/production/pratica1/ErrorsSoapSolver.class" afterDir="false" />
@@ -21,6 +26,11 @@
       <change beforePath="$PROJECT_DIR$/pratica1/src/SoapMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/pratica1/src/SoupMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pratica1/src/SoapSolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/pratica1/src/SoupSolver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pratica1/src/SoupGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/pratica1/src/SoupGenerator.java" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/out/production/pratica1/GoodVersion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pratica1/GoodVersion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pratica1/SoapMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pratica1/SoapMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pratica1/src/GoodVersion.java" beforeDir="false" afterPath="$PROJECT_DIR$/pratica1/src/GoodVersion.java" afterDir="false" />
+>>>>>>> fdb5da62e13b05526e305a6afb115d5e66ff93e7
     </list>
     <ignored path="$PROJECT_DIR$/pratica1/output/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,6 +39,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
   <component name="FUSProjectUsageTrigger">
     <session id="-321250991">
       <usages-collector id="statistics.file.extensions.open">
@@ -104,11 +115,21 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
               <caret line="5" column="3" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="3" />
+=======
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pratica1/src/SoapGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-989">
+              <caret line="61" column="108" selection-start-line="61" selection-start-column="108" selection-end-line="61" selection-end-column="108" />
+>>>>>>> fdb5da62e13b05526e305a6afb115d5e66ff93e7
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/pratica1/src/SoupMap.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="297">
@@ -138,10 +159,17 @@
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret line="70" column="25" selection-start-line="70" selection-start-column="25" selection-end-line="70" selection-end-column="25" />
+=======
+        <entry file="file://$PROJECT_DIR$/pratica1/src/GoodVersion.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+>>>>>>> fdb5da62e13b05526e305a6afb115d5e66ff93e7
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pratica1/src/SoupSolver.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -153,12 +181,20 @@
                 <element signature="method#transposeSoup#0;class#SoupSolver#0" />
                 <element signature="method#reverseSoup#0;class#SoupSolver#0" />
               </folding>
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+>>>>>>> fdb5da62e13b05526e305a6afb115d5e66ff93e7
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+<<<<<<< HEAD
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -187,12 +223,15 @@
       <find>s</find>
     </findStrings>
   </component>
+=======
+>>>>>>> fdb5da62e13b05526e305a6afb115d5e66ff93e7
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/.idea/misc.xml" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/pratica1/soap.txt" />
@@ -214,11 +253,22 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="325" />
-    <option name="width" value="1260" />
-    <option name="height" value="728" />
+=======
+        <option value="$PROJECT_DIR$/pratica1/src/SoapGenerator.java" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/pratica1/src/GoodVersion.java" />
+      </list>
+    </option>
   </component>
+>>>>>>> fdb5da62e13b05526e305a6afb115d5e66ff93e7
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="260" />
+    <option name="y" value="20" />
+    <option name="width" value="1400" />
+    <option name="height" value="992" />
+  </component>
+<<<<<<< HEAD
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
       <profile-state>
@@ -258,6 +308,8 @@
       </profile-state>
     </entry>
   </component>
+=======
+>>>>>>> fdb5da62e13b05526e305a6afb115d5e66ff93e7
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -265,7 +317,10 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+<<<<<<< HEAD
       <pane id="PackagesPane" />
+=======
+>>>>>>> fdb5da62e13b05526e305a6afb115d5e66ff93e7
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -300,11 +355,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+<<<<<<< HEAD
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551210991338" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -317,6 +374,10 @@
       <recent name="$PROJECT_DIR$/pratica1/src" />
     </key>
   </component>
+=======
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551105115650" />
+  </component>
+>>>>>>> fdb5da62e13b05526e305a6afb115d5e66ff93e7
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -329,7 +390,11 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Application.GoodVersion">
+=======
+  <component name="RunManager">
+>>>>>>> fdb5da62e13b05526e305a6afb115d5e66ff93e7
     <configuration name="GoodVersion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GoodVersion" />
       <module name="pratica1" />
@@ -337,6 +402,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="Pratica1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Pratica1" />
       <module name="pratica1" />
@@ -352,6 +418,11 @@
       <list>
         <item itemvalue="Application.GoodVersion" />
         <item itemvalue="Application.Pratica1" />
+=======
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.GoodVersion" />
+>>>>>>> fdb5da62e13b05526e305a6afb115d5e66ff93e7
       </list>
     </recent_temporary>
   </component>
@@ -364,6 +435,7 @@
       <created>1550481843341</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
+<<<<<<< HEAD
       <updated>1550481843341</updated>
       <workItem from="1550481845028" duration="5908000" />
       <workItem from="1550498165644" duration="6000" />
@@ -381,10 +453,22 @@
       <workItem from="1551139068199" duration="8451000" />
       <workItem from="1551194076098" duration="54000" />
       <workItem from="1551206321855" duration="4575000" />
+=======
+      <updated>1551039112152</updated>
+      <workItem from="1551039122488" duration="1487000" />
+      <workItem from="1551042483995" duration="58000" />
+      <workItem from="1551042653924" duration="25000" />
+      <workItem from="1551048390904" duration="625000" />
+      <workItem from="1551049346105" duration="190000" />
+      <workItem from="1551049567945" duration="5190000" />
+      <workItem from="1551086446288" duration="6142000" />
+      <workItem from="1551128385514" duration="255000" />
+>>>>>>> fdb5da62e13b05526e305a6afb115d5e66ff93e7
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="31328000" />
   </component>
   <component name="ToolWindowManager">
@@ -439,20 +523,57 @@
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.09825327" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32969433" />
+=======
+    <option name="totallyTimeSpent" value="2487000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1920" height="1032" extended-state="6" />
+    <layout>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Designer" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Structure" order="5" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.12929185" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3298611" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3298731" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3298731" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.8622685" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3298611" />
+>>>>>>> fdb5da62e13b05526e305a6afb115d5e66ff93e7
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
+<<<<<<< HEAD
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Database" order="5" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" />
     </layout-to-restore>
+=======
+      <window_info anchor="right" id="Database" order="4" weight="0.3299356" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout>
+>>>>>>> fdb5da62e13b05526e305a6afb115d5e66ff93e7
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+<<<<<<< HEAD
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -482,6 +603,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="33">
           <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+=======
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pratica1/src/SoapGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-989">
+          <caret line="61" column="108" selection-start-line="61" selection-start-column="108" selection-end-line="61" selection-end-column="108" />
+>>>>>>> fdb5da62e13b05526e305a6afb115d5e66ff93e7
         </state>
       </provider>
     </entry>
@@ -492,6 +623,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pratica1/src/GoodVersion.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="182">
           <caret line="80" column="29" lean-forward="true" selection-start-line="80" selection-start-column="29" selection-end-line="80" selection-end-column="29" />
           <folding>
@@ -645,5 +777,19 @@
         </settings>
       </state>
     </states>
+=======
+        <state relative-caret-position="220">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> fdb5da62e13b05526e305a6afb115d5e66ff93e7
   </component>
 </project>
