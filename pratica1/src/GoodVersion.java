@@ -71,13 +71,16 @@ public class GoodVersion {
         initial_time = System.currentTimeMillis();
         separateSoapWords(soap_file_lines, soap, words);
 
-        results = SoapSolver.solve(soap, words);
+        SoupSolver soup_solver = new SoupSolver(soap, words);
+        results = soup_solver.solve();
         final_time = System.currentTimeMillis();
 
         // verify if all words are in the soap
         words.forEach(word -> {
-            if(!results.containsKey(word))
+            if(!results.containsKey(word)){
+                System.out.println(word);
                 ErrorsSoapSolver.duplicationInPuzzleError();
+            }
         });
 
         // print results table

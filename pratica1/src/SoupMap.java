@@ -1,6 +1,6 @@
 import java.util.TreeMap;
 
-public class SoapMap extends TreeMap {
+public class SoupMap extends TreeMap {
 
     @Override
     public Object put(Object key, Object value) {
