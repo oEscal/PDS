@@ -22,35 +22,38 @@ public class GoodVersion {
             String file_name = options.get(index_option + 1);
 
             resolveSoap(file_name);
-        }
-        if(options.contains("-g")){
-            int index_option = options.indexOf("-g");
-            int index_words_file = index_option + 1;
-            int index_file_save = index_option + 2;
+        }else
+            if(options.contains("-g")){
+                int index_option = options.indexOf("-g");
+                int index_words_file = index_option + 1;    // word's file is always the first argument
+                int index_soup_size = options.size() - 1;   // soup size is always the last argument
+                int index_file_save = options.size() - 2;   // file to save is always the penultimate argument
 
-            String words_file_name;
-            String result_file_name = "-terminal-";
+                String words_file_name;
+                String result_file_name = "-terminal-";
+                int soup_size;
 
-            // verify if arguments of this options exists
-            if(options.size() <= index_words_file)
-                optionsError();
+                // verify if arguments of this options exists
+                if(options.size() <= index_words_file ||
+                        ((options.size() - index_soup_size - 1 == 0)  && !stringIsNumber(options.get(index_soup_size))))
+                    optionsError();
 
-            words_file_name = options.get(index_words_file);
+                words_file_name = options.get(index_words_file);
+                soup_size = Integer.parseInt(options.get(index_soup_size));
 
-            if(options.size() <= index_file_save)
-                result_file_name = options.get(index_file_save);
+                if(options.size() - index_file_save - 1 == 1)
+                    result_file_name = options.get(index_file_save);
 
-            generateSoap(words_file_name, result_file_name, 20);
-        }
-
+                generateSoap(words_file_name, result_file_name, soup_size);
+            }
     }
 
     private static void optionsError(){
         System.err.println("Error in arguments!\n\n" +
                 "Usages (arguments inside [] are required and arguments inside <> are optional):\n" +
-                "java GoodVersion -g [words_file] <result_file>\n" +
+                "$ java GoodVersion -g [words_file] <result_file> [soup_size]\n" +
                 "\t\t\tor\n" +
-                "java GoodVersion -s [soup_file]");
+                "$ java GoodVersion -s [soup_file]");
         System.exit(1);
     }
 
@@ -63,7 +66,6 @@ public class GoodVersion {
         List<String> words = new ArrayList<>();
 
         Map<String, Integer[]> results;
-
 
         soap_file_lines = readFileLines(soap_file_name);
         initial_time = System.currentTimeMillis();
@@ -99,9 +101,9 @@ public class GoodVersion {
         words_file_lines.forEach(line -> createWordsListFromLine(line, words));
 
 
-        soap = SoapGenerator.generate(words, soap_size);
+        SoupGenerator soap_generator = new SoupGenerator(words, soap_size);
+        soap = soap_generator.generate();
         writeSoapToFile(file_name_save, soap, words);
-
     }
 
     private static void separateSoapWords(List<String> lines, List<String> soap, List<String> words){
@@ -224,6 +226,10 @@ public class GoodVersion {
         }
 
         return "none";
+    }
+
+    private static boolean stringIsNumber(String v){
+        return v.chars().allMatch(Character::isDigit);
     }
 
 }
