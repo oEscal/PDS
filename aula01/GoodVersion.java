@@ -1,4 +1,4 @@
-package pratica1;
+package aula01;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -53,9 +53,9 @@ public class GoodVersion {
     private static void optionsError(){
         System.err.println("Error in arguments!\n\n" +
                 "Usages (arguments inside [] are required and arguments inside <> are optional):\n" +
-                "$ java pratica1.GoodVersion -g [words_file] <result_file> [soup_size]\n" +
+                "$ java aula01.GoodVersion -g [words_file] <result_file> [soup_size]\n" +
                 "\t\t\tor\n" +
-                "$ java pratica1.GoodVersion -s [soup_file]");
+                "$ java aula01.GoodVersion -s [soup_file]");
         System.exit(1);
     }
 

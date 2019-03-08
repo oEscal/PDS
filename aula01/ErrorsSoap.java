@@ -1,4 +1,4 @@
-package pratica1;
+package aula01;
 
 public class ErrorsSoap {
 
