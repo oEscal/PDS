@@ -1,3 +1,5 @@
+package pratica1;
+
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -51,9 +53,9 @@ public class GoodVersion {
     private static void optionsError(){
         System.err.println("Error in arguments!\n\n" +
                 "Usages (arguments inside [] are required and arguments inside <> are optional):\n" +
-                "$ java GoodVersion -g [words_file] <result_file> [soup_size]\n" +
+                "$ java pratica1.GoodVersion -g [words_file] <result_file> [soup_size]\n" +
                 "\t\t\tor\n" +
-                "$ java GoodVersion -s [soup_file]");
+                "$ java pratica1.GoodVersion -s [soup_file]");
         System.exit(1);
     }
 
@@ -79,7 +81,7 @@ public class GoodVersion {
         words.forEach(word -> {
             if(!results.containsKey(word)){
                 System.out.println(word);
-                ErrorsSoapSolver.duplicationInPuzzleError();
+                ErrorsSoap.duplicationInPuzzleError();
             }
         });
 
@@ -115,11 +117,11 @@ public class GoodVersion {
             if(soap.size() == 0 ||  soap.size() < soap.get(0).length()) {
                 // verify soap's size
                 if(soap.size() > SOAP_MAX_SIZE)
-                    ErrorsSoapSolver.sizeError();
+                    ErrorsSoap.sizeError();
 
                 // verify soap letters's case
                 if(!line.equals(line.toUpperCase()))
-                    ErrorsSoapSolver.puzzleCaseError();
+                    ErrorsSoap.puzzleCaseError();
 
                 soap.add(line);
             }
@@ -142,18 +144,18 @@ public class GoodVersion {
                 // verify if there are duplicated or redundant words
                 words.forEach(w -> {
                     if(w.contains(item.toUpperCase()) || item.toUpperCase().contains(w))
-                        ErrorsSoapSolver.duplicatedOrRedundantWordsError();
+                        ErrorsSoap.duplicatedOrRedundantWordsError();
                 });
 
                 // verify if there are non alphabetic characters
                 if(item.matches("^.*[^a-zA-Z].*$")){
                     System.out.println(item);
-                    ErrorsSoapSolver.alphabeticCharsError();
+                    ErrorsSoap.alphabeticCharsError();
                 }
 
                 // verify if words have at least three characters
                 if(item.length() < 3)
-                    ErrorsSoapSolver.wordsSizeError();
+                    ErrorsSoap.wordsSizeError();
 
                 words.add(item.toUpperCase());
             }

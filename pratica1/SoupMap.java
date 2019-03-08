@@ -1,11 +1,14 @@
+package pratica1;
+
 import java.util.TreeMap;
 
 public class SoupMap extends TreeMap {
 
     @Override
     public Object put(Object key, Object value) {
+
         if(this.containsKey(key))
-            ErrorsSoapSolver.duplicationInPuzzleError();
+            ErrorsSoap.duplicationInPuzzleError();
         return super.put(key, value);
     }
 }

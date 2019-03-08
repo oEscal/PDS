@@ -1,3 +1,5 @@
+package pratica1;
+
 import java.util.*;
 
 public class SoupGenerator {
@@ -9,11 +11,13 @@ public class SoupGenerator {
     private List<Integer[]> possible_directions;
 
     private int soup_size;
+    private int max_number_cycles;
 
     public SoupGenerator(List<String> words, int soup_size){
 
         this.words = words;
         this.soup_size = soup_size;
+        this.max_number_cycles = this.soup_size*10;
 
         possible_directions = new ArrayList<>();
         generatePossiblePositions();
@@ -45,8 +49,13 @@ public class SoupGenerator {
 
         Integer[] position_to_insert;
         Integer[] direction;
+        int current_cycle = 0;
 
         do{
+            if(current_cycle++ > max_number_cycles)
+                ErrorsSoap.sizeSoupGenerateError();
+            current_cycle++;
+
             position_to_insert = new Integer[]{rand.nextInt(soup_size),
                                                rand.nextInt(soup_size)};
 
@@ -59,7 +68,7 @@ public class SoupGenerator {
 
         List<Integer[]> current_possible_directions = new ArrayList<>(possible_directions);
 
-        while(current_possible_directions.size() > 0){
+        while (current_possible_directions.size() > 0){
 
             Integer[] direction = current_possible_directions.get(rand.nextInt(current_possible_directions.size()));
             current_possible_directions.remove(direction);
