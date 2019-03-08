@@ -1,8 +1,6 @@
 package aula03;
 
-import java.awt.*;
 import java.util.Comparator;
-import java.util.TreeSet;
 
 public class MemberSetComparator implements Comparator<Member> {
 
