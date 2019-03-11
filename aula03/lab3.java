@@ -22,7 +22,12 @@ public class lab3 {
 
     }
 
-    private static void map(List<TreeSet<Member>> map_doors){
+    private static void map(List<Member> members){
+
+        StreetMap street_map = new StreetMap();
+        street_map.addAll(members);
+
+        List<TreeSet<Member>> map_doors = street_map.getDoors();
 
         List<Member> current_line_struct = new ArrayList<>();
         for (int door_index = 0; door_index < map_doors.size(); door_index++) {
@@ -87,6 +92,7 @@ public class lab3 {
             Files.lines(path_file).forEach(line -> file_lines.add(line));
         }catch(IOException e) {
             System.out.println("Error in file opening!");
+            System.exit(1);
         }
 
         return file_lines;
@@ -106,17 +112,18 @@ public class lab3 {
         int x1,x2;
         content.remove(0);
 
-        for (String family : content){
+        for (String member : content){
 
+            String[] member_parts = member.split("[-\\s]+");
 
-            x1 = Integer.parseInt(family.split("-")[0]);
-            x2 = Integer.parseInt(family.split("-")[2]);
+            x1 = Integer.parseInt(member_parts[0]);
+            x2 = Integer.parseInt(member_parts[1]);
             checkDoors(x1,x2);
 
-            if ( street.contains(Member.factory(family.split("\\s")[1], x1, x2)) )
+            if ( street.contains(Member.factory(member_parts[2], x1, x2)) )
                 System.err.println("Resident already exist!");
             else
-                street.add( Member.factory(family.split("\\s")[1], x1, x2) );
+                street.add( Member.factory(member_parts[2], x1, x2) );
         }
 
     }
@@ -143,7 +150,7 @@ public class lab3 {
 
     /*
     Function to remove resident
-    If resident dont exist, give error
+    If resident don't exist, give error
      */
     private static void removeMember(String name){
 
@@ -157,7 +164,7 @@ public class lab3 {
             }
 
         if (checkExistence)
-            System.err.println("Não existe!");
+            System.err.println("Doesn't exist!");
     }
 
 
@@ -175,10 +182,11 @@ public class lab3 {
                 num_final = resident.getNum_final();
 
                 System.out.print(num_initial + " " + num_final + " : ");
-                for (Member habitant : street)
-                    if (habitant.getNum_initial() == num_initial && habitant.getNum_final() == num_final)
-                        System.out.print(habitant.getName() + " ");
+                for (Member member : street)
+                    if (member.getNum_initial() == num_initial && member.getNum_final() == num_final)
+                        System.out.print(member.getName() + " ");
                 System.out.println();
+                break;
             }
 
         }
@@ -191,11 +199,8 @@ public class lab3 {
 
     private static void menu(){
 
-
-
         System.out.print("Load, Map, Add, Remove, List, LookUp, Clear, Quit\nCommand: ");
         String[] option = keyBoard.nextLine().split("[\\s]+");
-
 
         switch (option[0].toLowerCase()){
             case "load":
@@ -203,6 +208,7 @@ public class lab3 {
                 getFamilies(content);
                 break;
             case "map":
+                map(street);
                 break;
             case "add":
                 addMember(option);

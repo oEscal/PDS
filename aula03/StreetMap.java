@@ -24,6 +24,10 @@ public class StreetMap{
         }
     }
 
+    public void addAll(List<Member> new_members){
+        new_members.forEach(new_member -> add(new_member));
+    }
+
     private void increaseStreetSize(int new_size){
         for(int door_index = doors.size(); door_index < new_size; door_index++)
             doors.add(new TreeSet(new MemberSetComparator()));
