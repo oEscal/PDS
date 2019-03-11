@@ -22,8 +22,10 @@ public class JGaloController implements JGaloInterface {
 
     private int[][] board;
     private int current_player;
+    private int count_plays = 0;
 
     public JGaloController(){
+
         board = new int[3][3];
         for (int[] current_board_line : board)
             Arrays.fill(current_board_line, -10);
@@ -41,6 +43,7 @@ public class JGaloController implements JGaloInterface {
 
         lin--;
         col--;
+        count_plays++;
 
         if(board[lin][col] == -10){
             board[lin][col] = current_player;
@@ -54,7 +57,7 @@ public class JGaloController implements JGaloInterface {
 
     @Override
     public boolean isFinished() {
-        return checkIfWinner() != 0 || checkBoardSum();
+        return checkIfWinner() != 0 || checkHaveMorePlays();
     }
 
     @Override
@@ -81,20 +84,22 @@ public class JGaloController implements JGaloInterface {
                 current_sum_col += board[index2][index1];
             }
 
-            if(current_sum_line == 3 || current_sum_col == 3 || current_sum_diag1 == 3 || current_sum_diag2 == 3)
+            if(current_sum_line == 3 || current_sum_col == 3 )
                 return 1;
-            if(current_sum_line == 6 || current_sum_col == 6 || current_sum_diag1 == 6 || current_sum_diag2 == 6)
+            if(current_sum_line == 6 || current_sum_col == 6 )
                 return 2;
         }
+
+        if(current_sum_diag1 == 3 || current_sum_diag2 == 3)
+            return 1;
+        if(current_sum_diag1 == 6 || current_sum_diag2 == 6)
+            return 2;
+
 
         return 0;
     }
 
-    private boolean checkBoardSum(){
-        for(int lin = 0; lin < board.length; lin++)
-            for(int col = 0; col < board.length; col++)
-                if(board[lin][col] < 0)
-                    return false;
-        return true;
+    private boolean checkHaveMorePlays(){
+        return count_plays == 9;
     }
 }
