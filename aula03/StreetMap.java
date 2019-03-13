@@ -19,9 +19,8 @@ public class StreetMap{
 
         increaseStreetSize(new_member_final);
 
-        for(int door_index = new_member_initial; door_index < new_member_final + 1; door_index++){
+        for(int door_index = new_member_initial; door_index < new_member_final + 1; door_index++)
             doors.get(door_index - 1).add(new_member);
-        }
     }
 
     public void addAll(List<Member> new_members){
@@ -35,6 +34,10 @@ public class StreetMap{
 
     public List<TreeSet<Member>> getDoors() {
         return doors;
+    }
+
+    public TreeSet<Member> getInDoor(int door){
+        return doors.get(door - 1);
     }
 
     @Override

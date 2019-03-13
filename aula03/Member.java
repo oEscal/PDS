@@ -18,7 +18,7 @@ public class Member {
     public static Member factory(String name, int num_initial, int num_final){
 
         // verify name
-        if(/*function(name)*/ false)
+        if(!checkNames(name))
             return null;
         return new Member(name, num_initial, num_final);
     }
@@ -33,6 +33,15 @@ public class Member {
 
     public int getNum_final() {
         return num_final;
+    }
+
+    private static boolean checkNames(String name) {
+
+        return name.length() <= 40 &&  //Check if name had dimension less then 40
+                (name.charAt(0) + "").matches("[A-Za-z]") && //Check if name starts with letter
+                !(name.charAt(name.length() - 1) + "").matches("[@._]") && //Check if name dont finish with {@_.}
+                name.matches("[A-Za-z0-9._@]+"); //Check if name had some invalid characters
+
     }
 
 
