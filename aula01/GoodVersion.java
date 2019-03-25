@@ -8,6 +8,8 @@ import java.util.*;
 
 public class GoodVersion {
 
+    /*
+
     private static int SOAP_MAX_SIZE = 60;
 
     public static void main(String args[]){
@@ -236,5 +238,5 @@ public class GoodVersion {
     private static boolean stringIsNumber(String v){
         return v.chars().allMatch(Character::isDigit);
     }
-
+*/
 }

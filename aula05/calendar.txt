@@ -1,0 +1,4 @@
+No código tem um abstract factory que cria vários tipos de calendário, tais como,BuddhistCalendar, JapaneseImperialCalendar
+e GregorianCalendar. Efetivamente, a classe tem como factory o método getInstance().
+Para além disso, contém um builder para construir o calendário passo a passo com mais detalhes.
+
