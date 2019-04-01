@@ -58,7 +58,7 @@ public class DatabaseAdapter implements DatabaseAdapterInterface {
         database2.listaDeEmpregados().forEach(
                 emp -> System.out.println(
                         "First: " + emp.nome() +
-                        "LastName: " + emp.apelido() +
+                        "; LastName: " + emp.apelido() +
                         "; Code: " + emp.codigo() +
                         "; Salary: " + emp.salario()
                 )

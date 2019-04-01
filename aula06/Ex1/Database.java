@@ -15,17 +15,18 @@ public class Database {
 
         if (employees.contains(employee))
             return false;
-        else {
-            employees.add(employee);
-            return true;
-        }
 
+        employees.add(employee);
+        return true;
     }
 
     public void deleteEmployee(long emp_num) {
+
         for (Employee ey : employees)
-            if ( ey.getEmpNum() == emp_num)
+            if ( ey.getEmpNum() == emp_num){
                 employees.remove(ey);
+                break;
+            }
     }
 
     public Employee[] getAllEmployees() {

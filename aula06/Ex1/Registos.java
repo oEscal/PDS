@@ -18,9 +18,12 @@ public class Registos {
     }
 
     public void remove(int codigo) {
+
         for (Empregado emp : empregados)
-            if ( emp.codigo() == codigo)
+            if (emp.codigo() == codigo){
                 empregados.remove(emp);
+                break;
+            }
     }
 
     public boolean isEmpregado(int codigo) {
