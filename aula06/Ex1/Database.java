@@ -13,13 +13,24 @@ public class Database {
 
     public boolean addEmployee(Employee employee) {
 
+        if (employees.contains(employee))
+            return false;
+        else {
+            employees.add(employee);
+            return true;
+        }
+
     }
 
     public void deleteEmployee(long emp_num) {
-
+        for (Employee ey : employees)
+            if ( ey.getEmpNum() == emp_num)
+                employees.remove(ey);
     }
 
     public Employee[] getAllEmployees() {
 
+        // Cast de employees para Employee[]
+        return employees.toArray(new Employee[0]);
     }
 }
