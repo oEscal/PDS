@@ -1,6 +1,9 @@
 package aula06.Ex2;
 
-public class Contact {
+
+import java.io.Serializable;
+
+public class Contact implements Comparable, Serializable {
 
     private String nome;
     private int numero;
@@ -19,7 +22,21 @@ public class Contact {
     }
 
     @Override
+    // order alphabetically and numerically
+    public int compareTo(Object o) {
+
+        Contact contact_to_compare = (Contact) o;
+
+        int compare_alphabetic = this.nome.compareTo(contact_to_compare.getNome());
+        if (compare_alphabetic == 0)
+            return this.numero - contact_to_compare.getNumero();
+        return  compare_alphabetic;
+
+    }
+
+    @Override
     public String toString() {
-        return this.nome+" -> " +this.numero;
+        return "nome: '" + nome + '\'' +
+                ", numero: " + numero;
     }
 }
