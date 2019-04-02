@@ -17,4 +17,9 @@ public class Contact {
     public int getNumero() {
         return numero;
     }
+
+    @Override
+    public String toString() {
+        return this.nome+" -> " +this.numero;
+    }
 }
