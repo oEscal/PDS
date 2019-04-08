@@ -6,6 +6,7 @@ import java.util.List;
 public class Bloco implements Figure {
 
     private String position;
+    //List of geometric figures
     private List<Figure> drawing = new ArrayList<>();
 
     public Bloco (String position){
