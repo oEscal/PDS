@@ -1,6 +1,6 @@
 package aula07.Ex3;
 
-public class Rectangulo implements Figure {
+public class Rectangulo extends Figure {
 
     private String name;
 

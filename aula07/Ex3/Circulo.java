@@ -1,6 +1,6 @@
 package aula07.Ex3;
 
-public class Circulo implements Figure {
+public class Circulo extends Figure {
 
     private String color;
 
