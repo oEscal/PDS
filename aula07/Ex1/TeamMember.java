@@ -26,8 +26,4 @@ public class TeamMember extends EmployeeDecorator {
         employee.work();
         System.out.println("colaboration!");
     }
-
-
-
-
 }
