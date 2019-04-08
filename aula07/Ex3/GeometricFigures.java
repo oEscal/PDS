@@ -11,8 +11,7 @@ public class GeometricFigures {
         principal.add(bot);
         bot.add(new Circulo("rosa"));
         bot.add(new Quadrado("verde"));
-        top.add(new Picture("Outra área"));
+        top.add(new Bloco("Outra área"));
         principal.draw();
-
     }
 }

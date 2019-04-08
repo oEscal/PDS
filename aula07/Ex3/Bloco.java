@@ -3,27 +3,33 @@ package aula07.Ex3;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Bloco implements Figure {
+public class Bloco extends Figure {
+
+    private static final int INDENTATION = 3;
 
     private String position;
-    //List of geometric figures
-    private List<Figure> drawing = new ArrayList<>();
+    private List<Figure> drawing;               //List of geometric figures
 
     public Bloco (String position){
+
         this.position = position;
+        this.drawing = new ArrayList<>();
     }
 
     public void add(Figure fig){
-        drawing.add(fig);
+        this.drawing.add(fig);
     }
 
     @Override
     public void draw() {
 
-        System.out.println(indent.toString() + "Window "+this.position);
-        indent.append("   ");
-        for (Figure fig: drawing)
+        System.out.println(this.indent.toString() + "Window " + this.position);
+
+        for (int i = 0; i < INDENTATION; i++)
+            this.indent.append(" ");
+
+        for (Figure fig: this.drawing)
             fig.draw();
-        indent.setLength(indent.length() - 3);
+        this.indent.setLength(this.indent.length() - INDENTATION);
     }
 }

@@ -1,6 +1,6 @@
 package aula07.Ex3;
 
-public class Quadrado implements Figure {
+public class Quadrado extends Figure {
 
     private String color;
 

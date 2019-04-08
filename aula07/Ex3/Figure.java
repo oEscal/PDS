@@ -1,9 +1,8 @@
 package aula07.Ex3;
 
-public interface Figure {
+public abstract class Figure {
 
     //Create indentation
     public static StringBuffer indent = new StringBuffer();
-    public void draw();
-
+    public abstract void draw();
 }
