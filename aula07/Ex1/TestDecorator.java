@@ -1,6 +1,7 @@
 package aula07.Ex1;
 
 public class TestDecorator {
+
     public static void main(String[] args) {
 
         EmployeeInterface empregado = new TeamLeader(new Manager( new Employee("Nicolau Pedro")));
