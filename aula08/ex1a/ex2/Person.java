@@ -1,4 +1,4 @@
-package aula08.ex1a;
+package aula08.ex1a.ex2;
 
 public class Person {
 
