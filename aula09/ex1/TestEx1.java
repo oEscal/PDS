@@ -4,7 +4,7 @@ import java.util.Iterator;
 import java.util.ListIterator;
 import  java.util.ListIterator;
 
-public class Ex1 {
+public class TestEx1 {
     public static void main(String[] args) {
 
         VectorGeneric<String> myVectorG = new VectorGeneric<String>();
