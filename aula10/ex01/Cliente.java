@@ -1,4 +1,4 @@
-package aula10;
+package aula10.ex01;
 
 public class Cliente {
 }
