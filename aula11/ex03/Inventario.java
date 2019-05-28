@@ -1,4 +1,4 @@
-package aula11.ex02;
+package aula11.ex03;
 
 public class Inventario extends StateLivro {
 

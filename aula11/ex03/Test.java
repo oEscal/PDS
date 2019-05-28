@@ -1,8 +1,6 @@
-package aula11.ex02;
+package aula11.ex03;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 import java.util.Scanner;
 
 public class Test {

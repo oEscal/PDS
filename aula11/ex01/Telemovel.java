@@ -1,4 +1,4 @@
 package aula11.ex01;
 
-public class Telemóveis {
+public class Telemovel {
 }

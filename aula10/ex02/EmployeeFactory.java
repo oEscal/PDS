@@ -8,6 +8,6 @@ public class EmployeeFactory {
                 return new Programmer(name);
             }
         }
-        return null;
+        return new NullClass();
     }
 }
