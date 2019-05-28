@@ -24,6 +24,8 @@ Conclusões:
 - Podemos observar que o padrão Template Method é uma classe abstracta que tem todos os
 métodos comuns nas classes que extendem da mesma. Dessa forma, consegue manter a estrutura
 para todas as classes, embora possa depois essas classes extendidas terem métodos mais específicos.
+Também é possível observar que a classe abstracta tem métodos final, ou seja, as classes que extendem, não podem
+mudar esse método. Caso não seja final, pode dar override.
 
 
 
