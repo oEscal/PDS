@@ -1,7 +1,5 @@
 package aula11.ex01;
 
-import aula07.Ex1.TeamLeader;
-
 import java.util.Comparator;
 
 public class Telemovel {

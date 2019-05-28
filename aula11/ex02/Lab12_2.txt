@@ -1,0 +1,31 @@
+
+Template Method
+
+java.util.AbstractMap
+https://github.com/openjdk-mirror/jdk7u-jdk/blob/master/src/share/classes/java/util/AbstractMap.java
+
+Neste caso temos vários métodos comuns usados em diferentes mapas (Hashmap, TreeMap ...), tais como ,
+public void clear();
+public V remove(Object key);
+public V put(K key, V value);
+...
+
+java.util.AbstractList
+https://github.com/openjdk-mirror/jdk7u-jdk/blob/master/src/share/classes/java/util/AbstractList.java
+
+
+java.util.AbstractSet
+https://github.com/openjdk-mirror/jdk7u-jdk/blob/master/src/share/classes/java/util/AbstractSet.java
+
+Acontece o mesmo nos anteriores.
+
+Conclusões:
+
+- Podemos observar que o padrão Template Method é uma classe abstracta que tem todos os
+métodos comuns nas classes que extendem da mesma. Dessa forma, consegue manter a estrutura
+para todas as classes, embora possa depois essas classes extendidas terem métodos mais específicos.
+
+
+
+
+

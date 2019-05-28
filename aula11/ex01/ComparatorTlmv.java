@@ -1,9 +1,7 @@
 package aula11.ex01;
 
-import aula05.V1.Temperature;
 
 import java.util.Collections;
-import java.util.Comparator;
 import java.util.List;
 
 public class ComparatorTlmv implements Sort {
