@@ -7,6 +7,7 @@ public class Demo {
 
     public static void main(String[] args) {
 
+
         Telemovel t1 = new Telemovel("Xiomi mi A1", 220.99, "Octa Core", 4, 12);
         Telemovel t2 = new Telemovel("Xiomi mi A2", 200.99, "Octa Core", 4, 11);
         Telemovel t3 = new Telemovel("LG", 150, "Octa Core", 5, 9);
